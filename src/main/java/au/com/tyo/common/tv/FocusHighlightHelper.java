@@ -4,6 +4,7 @@ import android.animation.TimeAnimator;
 import android.content.res.Resources;
 import android.support.v17.leanback.R;
 import android.support.v17.leanback.graphics.ColorOverlayDimmer;
+import android.support.v17.leanback.widget.FocusHighlight;
 import android.support.v17.leanback.widget.ShadowOverlayContainer;
 import android.support.v17.leanback.widget.ShadowOverlayHelper;
 import android.view.View;
@@ -122,13 +123,13 @@ public class FocusHighlightHelper {
         }
     }
 
-    static class BoxFocusHighlight implements FocusHighlightHandler {
+    public static class BoxFocusHighlight implements FocusHighlightHandler {
         private static final int DURATION_MS = 150;
 
         private int mScaleIndex;
         private final boolean mUseDimmer;
 
-        BoxFocusHighlight(int zoomIndex, boolean useDimmer) {
+        public BoxFocusHighlight(int zoomIndex, boolean useDimmer) {
             if (!isValidZoomIndex(zoomIndex)) {
                 throw new IllegalArgumentException("Unhandled zoom index");
             }

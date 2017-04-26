@@ -6,7 +6,7 @@ import android.view.View;
  * Created by monfee on 14/3/17.
  */
 
-interface FocusHighlightHandler {
+public interface FocusHighlightHandler {
 
     /**
      * Called when an item gains or loses focus.
