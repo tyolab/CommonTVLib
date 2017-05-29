@@ -3,7 +3,7 @@ package au.com.tyo.common.tv;
 import android.view.View;
 
 /**
- * Created by monfee on 14/3/17.
+ * Created by Eric Tang (eric.tang@tyo.com.au) on 14/3/17.
  */
 
 public interface FocusHighlightHandler {

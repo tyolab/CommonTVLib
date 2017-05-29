@@ -12,7 +12,7 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
 
 /**
- * Created by monfee on 14/3/17.
+ * Created by Eric Tang (eric.tang@tyo.com.au) on 14/3/17.
  */
 
 public class FocusHighlightHelper {
